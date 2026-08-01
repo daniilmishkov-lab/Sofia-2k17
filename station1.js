@@ -6,7 +6,7 @@ document.getElementById("answer").value
 .trim();
 
 
-if(answer === "Pharaoh") {
+if(answer === "pharaoh") {
 
 
 localStorage.setItem(
