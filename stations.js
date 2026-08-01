@@ -20,5 +20,26 @@ const stations = {
 
         }
 
+    },
+    church: {
+
+        title: "Станция Церковь",
+
+        question:
+        "тестовый вопрос",
+
+        answer:
+        "69",
+
+        reward: {
+
+            id: "iphone",
+
+            name: "Мобила",
+
+            image: "img/iphone.jpg",
+
+        }
+
     }
 }
