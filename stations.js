@@ -17,7 +17,7 @@ const stations = {
 
             name: "Наушники",
 
-            image: "img/kopfhoerer.jpg"
+            image: "img/kopfhoerer.jpg",
 
         }
 
