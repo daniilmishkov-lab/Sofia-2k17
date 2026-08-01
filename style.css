@@ -69,6 +69,32 @@ transform:scale(1.05);
 
 }
 
+#inventory{
+
+margin-top:40px;
+
+}
+
+
+.item{
+
+display:inline-block;
+
+margin:15px;
+
+text-align:center;
+
+}
+
+
+.item img{
+
+border-radius:15px;
+
+box-shadow:0 0 10px rgba(0,0,0,0.5);
+
+}
+
 .map{
 
 width:100%;
