@@ -1,3 +1,4 @@
+console.log("stations geladen:", stations);
 const params =
 new URLSearchParams(window.location.search);
 
