@@ -18,8 +18,18 @@
 <div class="container">
 
 <h1 id="title"></h1>
-
+<p>
+ Соня помнит что шла домой через эти локации в этом порядке
+</p>
 <img id="map" class="map">
+
+<div id="inventory">
+
+<h2>🎒 Найденный шмот</h2>
+
+<div id="items"></div>
+
+</div>
 
 </div>
 
@@ -35,9 +45,26 @@ document.getElementById("map").src =
 "img/map" + team + ".png";
 
 </script>
-<p>
- Соня помнит что шла домой через эти локации в этом порядке
-</p>
+ 
+<script>
+
+let items = "";
+
+if(localStorage.getItem("gegenstand1")){
+
+items += `
+<div>
+<img src="img/kopfhoerer.jpg" width="80">
+`;
+
+}
+
+
+document.getElementById("items").innerHTML = items;
+
+
+</script>
+
 </body>
 
 </html>
