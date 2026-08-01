@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="de">
+<h1 id="title"></h1>
+
+<img id="map" class="map">
 <head>
 
 <meta charset="UTF-8">
@@ -20,6 +23,16 @@
 <img src="img/map.png" class="map">
 
 </div>
+<script>
 
+const team=localStorage.getItem("team");
+
+document.getElementById("title").innerHTML=
+"🗺️ Team "+team;
+
+document.getElementById("map").src=
+"img/map"+team+".png";
+
+</script>
 </body>
 </html>
