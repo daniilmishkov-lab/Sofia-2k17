@@ -1,12 +1,12 @@
 function checkAnswer(){
 
 let answer =
-document.getElementById("answer").value
-.toLowerCase()
-.trim();
+document.getElementById("answer").value;
+
+console.log("Eingegeben:", answer);
 
 
-if(answer === "pharaoh") {
+if(answer === "Pharaoh") {
 
 
 localStorage.setItem(
