@@ -97,9 +97,9 @@ if (station.type === "matching") {
                         auswählen
                     </option>
 
-                    ${station.pairs.map(p => `
-                        <option value="${p.right}">
-                            ${p.right}
+                    ${station.options.map(option => `
+                        <option value="${option}">
+                            ${option}
                         </option>
                     `).join("")}
 
