@@ -41,11 +41,15 @@ if (station.type === "text") {
 
     answerArea.innerHTML = `
 
-        <input
-            id="answer"
-            type="text"
-            placeholder="Antwort eingeben">
+        <div class="answer-box">
 
+        <input
+        id="answer"
+        type="text"
+        placeholder="Deine Antwort..."
+        autocomplete="off">
+
+        </div>
     `;
 
 }
