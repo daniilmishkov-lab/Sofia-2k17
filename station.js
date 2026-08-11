@@ -8,20 +8,6 @@ params.get("id");
 
 const station =
 stations[stationID];
-if (station.image) {
-
-    document.getElementById("question").innerHTML += `
-
-        <img
-            src="${station.image}"
-            class="question-image">
-
-    `;
-
-}
-
-
-
 if (!station) {
 
     document.body.innerHTML =
@@ -33,6 +19,17 @@ if (!station) {
 
 }
 document.getElementById("title").innerHTML = station.title;
+if (station.image) {
+
+    document.getElementById("questionImage").innerHTML = `
+
+        <img
+            src="${station.image}"
+            class="question-image">
+
+    `;
+
+}
 document.getElementById("question").innerHTML = station.question;
 const answerArea =
     document.getElementById("answerArea");
