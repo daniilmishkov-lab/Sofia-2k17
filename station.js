@@ -192,7 +192,7 @@ function checkAnswer() {
     if (!correct) {
 
         document.getElementById("result").innerHTML =
-            "❌ Falsch! Versuch es nochmal.";
+            "❌ Лошара, башкой ещё подумай.";
 
         return;
 
@@ -209,9 +209,9 @@ function checkAnswer() {
 
     document.getElementById("result").innerHTML = `
 
-        <h2>🎉 Richtig!</h2>
+        <h2>🎉 Красавцы!</h2>
 
-        <p>Du hast gefunden:</p>
+        <p>Вы нашли:</p>
 
         <img
             src="${station.reward.image}"
@@ -221,8 +221,8 @@ function checkAnswer() {
             ${station.reward.name}
         </p>
 
-        <a href="map.html">
-            🗺️ Zurück zur Karte
+        <a href="map.html" class="map-button">
+            🗺️ Назад к карте
         </a>
 
     `;
