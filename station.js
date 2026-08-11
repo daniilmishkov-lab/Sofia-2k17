@@ -5,7 +5,17 @@ new URLSearchParams(window.location.search);
 
 const stationID =
 params.get("id");
+if (station.image) {
 
+    document.getElementById("question").innerHTML += `
+
+        <img
+            src="${station.image}"
+            class="question-image">
+
+    `;
+
+}
 
 const station =
 stations[stationID];
