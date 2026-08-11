@@ -43,7 +43,15 @@ const stations = {
                 right: "Бургер"
             }
         ],
+        options: [
 
+        "Дико, например",
+        "Бургер",
+        "Cadillac",
+        "Black Siemens",
+        "House",
+        "Последний герой"
+        ],
         reward: {
 
             id: "iphone",
