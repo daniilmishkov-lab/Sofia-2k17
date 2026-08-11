@@ -25,11 +25,25 @@ const stations = {
 
         title: "Станция 2",
 
-        question:
-        "тестовый вопрос",
+        type: "matching",
 
-        answer:
-        "69",
+        question: "Ordne die Künstler ihren Songs zu.",
+
+        pairs: [
+            {
+                left: "PHARAOH",
+                right: "Дико, например"
+            },
+            {
+                left: "MORGENШTERN",
+                right: "Cadillac"
+            },
+            {
+                left: "FACE",
+                right: "Бургер"
+            }
+        ]
+    },
 
         reward: {
 
@@ -93,7 +107,7 @@ const stations = {
 
         question:
         "Принеси этому персонажу его любимый напиток, родом из главного города Верхней Франконии. Персонаж ожидает вас на метке 5b и получив эликсир выдаст вам предмет.",
-
+        image: "img/danja.jpg",
         answer:
         "420",
 
