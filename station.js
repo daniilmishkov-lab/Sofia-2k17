@@ -5,6 +5,9 @@ new URLSearchParams(window.location.search);
 
 const stationID =
 params.get("id");
+
+const station =
+stations[stationID];
 if (station.image) {
 
     document.getElementById("question").innerHTML += `
@@ -17,8 +20,7 @@ if (station.image) {
 
 }
 
-const station =
-stations[stationID];
+
 
 if (!station) {
 
