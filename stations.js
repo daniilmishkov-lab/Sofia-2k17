@@ -65,7 +65,10 @@ const stations = {
         "Как называется эта эпоха?",
 
         type: "multiple",
-        options: ["Tumblr", "VSCO", "Винишко-тян", "Vaporwave"],
+        options: ["Tumblr", 
+                  "VSCO", 
+                  "Винишко-тян", 
+                  "Vaporwave"],
         answer: "Винишко-тян",
 
         reward: {
@@ -86,7 +89,10 @@ const stations = {
         question: "Продолжи фразу:",
         image: "img/collage.jpg",
         type: "multiple",
-        options: ["А я не чай", "Так что бухаем", "А смерть не соль", "Пошли все нахуй"],
+        options: ["А я не чай", 
+                  "Так что бухаем", 
+                  "А смерть не соль", 
+                  "Пошли все нахуй"],
         answer: "А я не чай",
 
         reward: {
@@ -129,7 +135,10 @@ const stations = {
         "Какое название этой инсталляции, которая стала мемом Ждун?",
         image: "img/zdun.jpg",
         type: "multiple",
-        options: ["Gigas Proboscis", "Homunculus Loxodontus", "Morosus Manatus", "Mimus Cetaceus"],
+        options: ["Gigas Proboscis", 
+                  "Homunculus Loxodontus", 
+                  "Morosus Manatus", 
+                  "Mimus Cetaceus"],
         answer: "Homunculus Loxodontus",
 
         reward: {
@@ -151,7 +160,10 @@ const stations = {
         "Как называется этот мем?",
         image: "img/putler.jpg",
         type: "multiple",
-        options: ["путлер капут", "широкий путин", "блэт нэвэльный", "когда надел папин пиджак"],
+        options: ["путлер капут", 
+                  "широкий путин", 
+                  "блэт нэвэльный", 
+                  "когда надел папин пиджак"],
         answer: "блэт нэвэльный",
 
         reward: {
