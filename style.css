@@ -124,7 +124,38 @@ margin:15px;
 text-align:center;
 
 }
+.map-button {
+    display: block;
 
+    width: fit-content;
+    margin: 30px auto 10px;
+    padding: 15px 30px;
+
+    font-family: "Comic Sans MS", cursive;
+    font-size: 20px;
+    font-weight: bold;
+
+    text-decoration: none;
+    text-align: center;
+
+    color: white;
+    background: #333;
+
+    border-radius: 15px;
+
+    box-shadow: 0 4px 0 #111;
+
+    transition: all 0.1s;
+}
+
+.map-button:hover {
+    transform: translateY(-2px);
+}
+
+.map-button:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 0 #111;
+}
 .option {
     display: block;
     width: 100%;
