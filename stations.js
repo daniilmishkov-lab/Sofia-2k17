@@ -3,7 +3,7 @@ const stations = {
     kopfhoerer: {
 
         title: "Станция 1",
-
+        type: "text",
         question:
         "Соня прилегла по дороге домой отдохнуть и кайфово послушать музыку. Как зовут самого культового артиста того времени? Введите оригинальное написание его псевдонима. Подсказка: скрррр-скрррр",
 
@@ -27,7 +27,7 @@ const stations = {
 
         type: "matching",
 
-        question: "Ordne die Künstler ihren Songs zu.",
+        question: "Ordne die Künstler ihren Songs zu. (тут будут коллажи)",
 
         pairs: [
             {
@@ -42,8 +42,7 @@ const stations = {
                 left: "FACE",
                 right: "Бургер"
             }
-        ]
-    },
+        ],
 
         reward: {
 
@@ -104,7 +103,7 @@ const stations = {
     rosathing: {
 
         title: "Станция 5",
-
+        type: "text",
         question:
         "Принеси этому персонажу его любимый напиток, родом из главного города Верхней Франконии. Персонаж ожидает вас на метке 5b и получив эликсир выдаст вам предмет.",
         image: "img/danja.jpg",
@@ -166,4 +165,5 @@ const stations = {
         }
 
     }
+}
 }
