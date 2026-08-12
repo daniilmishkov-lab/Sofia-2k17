@@ -30,6 +30,19 @@ if (station.image) {
     `;
 
 }
+if (station.images) {
+
+    document.getElementById("questionImage").innerHTML =
+
+        station.images.map(image => `
+
+            <img
+                src="${image}"
+                class="question-image">
+
+        `).join("");
+
+}
 document.getElementById("question").innerHTML = station.question;
 const answerArea =
     document.getElementById("answerArea");
