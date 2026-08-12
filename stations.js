@@ -31,26 +31,39 @@ const stations = {
 
         pairs: [
             {
-                left: "PHARAOH",
-                right: "Дико, например"
+                left: "Коллаж 1",
+                right: "Фейс"
             },
             {
-                left: "MORGENШTERN",
-                right: "Cadillac"
+                left: "Коллаж 2",
+                right: "Пошлая Молли"
             },
             {
-                left: "FACE",
-                right: "Бургер"
+                left: "Коллаж 3",
+                right: "Фараон"
+            },
+            {
+                left: "Коллаж 4",
+                right: "Скриптонит"
             }
         ],
         options: [
-
-        "Дико, например",
-        "Бургер",
-        "Cadillac",
-        "Black Siemens",
-        "House",
-        "Последний герой"
+            "Хаски",
+            "Фараон",
+            "GONE.Fludd",
+            "Фейс",
+            "ATL",
+            "Пошлая Молли",
+            "Моргенштерн",
+            "Баста",
+            "Скриптонит",
+            "Кизару",
+            "Егор Крид",
+            "Boulevard Depo",
+            "Оксимирон",
+            "Noize MC",
+            "ЛСП",
+            "Макс Корж"
         ],
         reward: {
 
