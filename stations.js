@@ -26,8 +26,8 @@ const stations = {
         title: "Станция 2",
 
         type: "matching",
-
-        question: "Ordne die Künstler ihren Songs zu. (тут будут коллажи)",
+        images: ["img/col1.jpg", "img/col2.jpg", "img/col3.jpg"],
+        question: "Определи по коллажам о ком идёт речь:",
 
         pairs: [
             {
