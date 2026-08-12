@@ -21,7 +21,15 @@ max-width:600px;
 padding:40px;
 
 }
+.route-box {
+    margin: 20px 0;
+    text-align: center;
+}
 
+.route-box p {
+    margin: 0;
+    font-size: 16px;
+}
 .story{
 
 font-size:22px;
