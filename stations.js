@@ -26,7 +26,7 @@ const stations = {
         title: "Станция 2",
 
         type: "matching",
-        images: ["img/col1.jpg", "img/col2.jpg", "img/col3.jpg"],
+        images: ["img/col1.jpg", "img/col2.jpg", "img/col3.jpg", "img/col4.jpg"],
         question: "Определи по коллажам о ком идёт речь:",
 
         pairs: [
