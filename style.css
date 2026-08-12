@@ -124,6 +124,36 @@ margin:15px;
 text-align:center;
 
 }
+.quest-complete {
+
+    margin: 30px auto;
+    padding: 25px;
+
+    max-width: 500px;
+
+    text-align: center;
+
+    border: 3px solid #333;
+    border-radius: 20px;
+
+    background: white;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+
+}
+
+.quest-complete h2 {
+
+    font-size: 26px;
+
+}
+
+.quest-complete p {
+
+    font-size: 18px;
+    line-height: 1.5;
+
+}
 .map-button {
     display: block;
 
