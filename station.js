@@ -40,7 +40,7 @@ if (station.images) {
 
                 <img
                     src="${image}"
-                    class="question-image">
+                    class="question-image-many">
 
             `).join("")}
 
