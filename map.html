@@ -22,7 +22,7 @@
  Соня помнит что шла домой через эти локации в этом порядке
 </p>
 <img id="map" class="map">
-
+<div id="questComplete"> </div>
 <div id="inventory">
 
 <h2>🎒 Найденный шмот</h2>
@@ -73,13 +73,54 @@ for (const id in stations) {
 
 }
 
+const requiredItems = [
+    "kopfhoerer",
+    "iphone",
+    "glasses",
+    "spinner",
+    "rosathing",
+    "vans",
+    "tea"
+];
 
+
+const allItemsFound =
+    requiredItems.every(
+        item => localStorage.getItem(item) === "true"
+    );
+
+
+if (allItemsFound) {
+
+    document.getElementById("questComplete").innerHTML = `
+
+        <div class="quest-complete">
+
+            <h2>🎉 Поздравляем!</h2>
+
+            <p>
+                Вы нашли все семь предметов!
+            </p>
+
+            <p>
+                Ваша миссия выполнена.
+            </p>
+
+            <p>
+                Теперь отправляйтесь к Соне на вписку и получите свой приз!
+            </p>
+
+        </div>
+
+    `;
+
+}
 
 if(inventoryHTML === ""){
 
 
 inventoryHTML =
-"Du hast noch keine Gegenstände gefunden.";
+"Пока ничего не найдено.";
 
 
 }
