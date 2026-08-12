@@ -32,15 +32,21 @@ if (station.image) {
 }
 if (station.images) {
 
-    document.getElementById("questionImage").innerHTML =
+    document.getElementById("questionImage").innerHTML = `
 
-        station.images.map(image => `
+        <div class="question-images">
 
-            <img
-                src="${image}"
-                class="question-image">
+            ${station.images.map(image => `
 
-        `).join("");
+                <img
+                    src="${image}"
+                    class="question-image">
+
+            `).join("")}
+
+        </div>
+
+    `;
 
 }
 document.getElementById("question").innerHTML = station.question;
