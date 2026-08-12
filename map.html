@@ -21,6 +21,7 @@
 <p>
  Соня помнит что шла домой через эти локации в этом порядке
 </p>
+<div id="route"></div>
 <img id="map" class="map">
 <div id="questComplete"> </div>
 <div id="inventory">
@@ -72,7 +73,27 @@ for (const id in stations) {
     }
 
 }
+const routes = {
 
+    "1": "Bank → Telefon → Park → Brücke → Café → Denkmal → Spielplatz",
+
+    "2": "Park → Denkmal → Bank → Spielplatz → Telefon → Café → Brücke",
+
+    "3": "Telefon → Café → Brücke → Bank → Denkmal → Park → Spielplatz",
+
+    "4": "Denkmal → Spielplatz → Café → Telefon → Park → Brücke → Bank"
+
+};
+document.getElementById("route").innerHTML = `
+
+    <div class="route-box">
+        <p>
+            ${routes[team]}
+        </p>
+
+    </div>
+
+`;
 const requiredItems = [
     "kopfhoerer",
     "iphone",
