@@ -1,4 +1,32 @@
 console.log("stations geladen:", stations);
+
+const team = localStorage.getItem("team");
+
+if (!team || !["1", "2", "3", "4"].includes(team)) {
+
+    document.body.innerHTML = `
+
+        <div class="container">
+
+            <h1>🔒 Quest nicht freigeschaltet</h1>
+
+            <p>
+                Bitte öffne zuerst den Link aus der Geburtstagsgruppe
+                und gib deine Teamnummer ein.
+
+                Dieses Spiel ist nur für unsere Gäste gedacht. Der Zettel wird nachher wieder entfernt.
+                Danke.
+            </p>
+
+        </div>
+
+    `;
+
+    throw new Error("Keine gültige Teamnummer vorhanden.");
+
+}
+
+
 const params =
 new URLSearchParams(window.location.search);
 
