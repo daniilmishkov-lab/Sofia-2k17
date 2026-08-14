@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 body{
 
 background:#202124;
 color:white;
-font-family:"Lobster";
+font-family:"Lobster", cursive;
 
 margin:0;
 
@@ -91,7 +92,7 @@ margin:40px 0;
 
     padding: 16px 20px;
 
-    font-family: "Lobster";
+    font-family: "Lobster", cursive;
     font-size: 20px;
 
     border: 3px solid #333;
@@ -183,7 +184,7 @@ text-align:center;
     margin: 30px auto 10px;
     padding: 15px 30px;
 
-    font-family: "Lobster";
+    font-family: "Lobster", cursive;
     font-size: 20px;
     font-weight: bold;
 
